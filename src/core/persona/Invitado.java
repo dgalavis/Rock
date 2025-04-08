@@ -4,10 +4,13 @@
  */
 package core.persona;
 
+import core.rock.Emision;
+import java.util.ArrayList;
+
 /**
  *
  * @author galav
  */
 public class Invitado {
-    
+    private ArrayList<Emision> emisiones;
 }

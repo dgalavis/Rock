@@ -4,10 +4,13 @@
  */
 package core.persona;
 
+import core.rock.Programa;
+import java.util.ArrayList;
+
 /**
  *
  * @author galav
  */
 public class Locutor {
-    
+    private ArrayList<Programa> programas;
 }

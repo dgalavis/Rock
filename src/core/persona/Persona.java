@@ -9,5 +9,5 @@ package core.persona;
  * @author galav
  */
 public class Persona {
-    
+    private String nombre;
 }

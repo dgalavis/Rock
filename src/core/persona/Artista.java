@@ -4,10 +4,12 @@
  */
 package core.persona;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author galav
  */
 public class Artista {
-    
+    private ArrayList<Artista> artistas;
 }
