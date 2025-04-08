@@ -66,7 +66,7 @@ public class RockRollRadio {
         return false;
          
     }
-    public boolean addInvitado(Invitado invitado) {
+    public boolean addInvitado(Invitado invitado, Emision emision) {
         if (!this.invitados.contains (invitado)){
             this.invitados.add(invitado);
          return true;
