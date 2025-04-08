@@ -2,12 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package core;
+package core.rock;
 
 /**
  *
- * @author galavisd
+ * @author galav
  */
-public class Rock {
+public class Cancion {
     
 }
