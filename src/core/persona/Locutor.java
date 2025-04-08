@@ -11,6 +11,11 @@ import java.util.ArrayList;
  *
  * @author galav
  */
-public class Locutor {
+public class Locutor extends Persona{
     private ArrayList<Programa> programas;
+
+    public Locutor(String nombre) {
+        super(nombre);
+    }
+    
 }

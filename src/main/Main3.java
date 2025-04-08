@@ -1,3 +1,9 @@
+package main;
+
+import core.persona.Locutor;
+import core.rock.Programa;
+import core.rock.RockRollRadio;
+
 public class Main3 {
     
     public static void main(String[] args) {
