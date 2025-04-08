@@ -14,5 +14,12 @@ public class Cancion {
     private String nombre;
     Artista artista;
     Genero genero;
+
+    public Cancion(String nombre, Artista artista, Genero genero) {
+        this.nombre = nombre;
+        this.artista = artista;
+        this.genero = genero;
+    }
+    
            
 }

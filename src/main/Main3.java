@@ -1,6 +1,11 @@
 package main;
 
+import core.persona.Artista;
+import core.persona.Invitado;
 import core.persona.Locutor;
+import core.rock.Cancion;
+import core.rock.Emision;
+import core.rock.Genero;
 import core.rock.Programa;
 import core.rock.RockRollRadio;
 

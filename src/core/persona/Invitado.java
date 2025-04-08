@@ -11,6 +11,12 @@ import java.util.ArrayList;
  *
  * @author galav
  */
-public class Invitado {
+public class Invitado extends Persona{
     private ArrayList<Emision> emisiones;
+
+    public Invitado(String nombre) {
+        super(nombre);
+        this.emisiones= new ArrayList<>();
+        
+    }
 }

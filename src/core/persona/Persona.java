@@ -9,7 +9,7 @@ package core.persona;
  * @author galav
  */
 public class Persona {
-    private String nombre;
+    protected String nombre;
 
     public Persona(String nombre) {
         this.nombre = nombre;

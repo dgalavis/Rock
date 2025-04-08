@@ -16,4 +16,9 @@ public class Emision {
     private ArrayList <Cancion> canciones;
     private ArrayList <Invitado> invitados;
     Programa programa;
+
+    public Emision(Programa programa) {
+        this.programa = programa;
+    }
+    
 }

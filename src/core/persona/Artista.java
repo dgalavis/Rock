@@ -10,6 +10,10 @@ import java.util.ArrayList;
  *
  * @author galav
  */
-public class Artista {
+public class Artista extends Persona {
     private ArrayList<Artista> artistas;
+
+    public Artista(String nombre) {
+        super(nombre);
+    }
 }
