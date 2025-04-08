@@ -19,5 +19,9 @@ public class RockRollRadio {
     private ArrayList <Invitado> invitados;
     private ArrayList <Locutor> locutores;
     private ArrayList <Programa> programas;
+
+    public void addLocutor(Locutor locutor) {
+        this.locutores.add(locutor);
+    }
     
 }
