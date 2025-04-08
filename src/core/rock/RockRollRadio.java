@@ -8,6 +8,7 @@ import core.persona.Artista;
 import core.persona.Invitado;
 import core.persona.Locutor;
 import java.util.ArrayList;
+import java.util.Collections;
 
 /**
  *
@@ -26,11 +27,13 @@ public class RockRollRadio {
         this.invitados= new ArrayList <>();
         this.locutores= new ArrayList <>();
         this.programas= new ArrayList <>();
+        
+        
     }
 
     public boolean addLocutor(Locutor locutor) {
         if (!this.locutores.contains (locutor)){
-            this.locutores.contains(locutor);
+            this.locutores.add(locutor);
             return true;
         }
         return false;
@@ -85,5 +88,22 @@ public class RockRollRadio {
     public boolean addEmision(Emision emision) {
         return true;
     }
+
+    public ArrayList<Artista> getArtistas() {
+        return artistas;
+    }
+    
+    public Programa  getProgramaConMasCancionesDeArtista(Artista artista) {
+        ArrayList<Integer> frecuencias = new ArrayList<>();
+        for (Programa programa : this.programas) {
+            frecuencias.add(programa.getFrecuenciaCanciones(artista));
+        }
+        int index = frecuencias.indexOf(Collections.max(frecuencias));
+        return this.programas.get(index);
+       
+   
+    }
+    
+    
     
 }

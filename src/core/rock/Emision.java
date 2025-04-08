@@ -4,6 +4,7 @@
  */
 package core.rock;
 
+import core.persona.Artista;
 import core.persona.Invitado;
 import java.util.ArrayList;
 
@@ -19,6 +20,29 @@ public class Emision {
 
     public Emision(Programa programa) {
         this.programa = programa;
+        this.programa.addEmision(this);
+        this.canciones = new ArrayList <>();
+        this.invitados= new ArrayList <>();
+        
+
+    }
+    public boolean addCancion(Cancion cancion) {
+        if (!this.canciones.contains (cancion)){
+            this.canciones.add(cancion);
+         return true;
+        }
+        return false;
+         
+    }
+    
+    public int getCantidadCanciones(Artista artista) {
+        int numCanciones = 0;
+        for (Cancion cancion : this.canciones) {
+            if (cancion.getArtista().equals(artista)) {
+                numCanciones++;
+            }
+        }
+        return numCanciones;
     }
     
 }

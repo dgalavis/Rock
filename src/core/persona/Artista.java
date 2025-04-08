@@ -16,4 +16,8 @@ public class Artista extends Persona {
     public Artista(String nombre) {
         super(nombre);
     }
+
+    public String getNombre() {
+        return nombre;
+    }
 }

@@ -20,6 +20,12 @@ public class Cancion {
         this.artista = artista;
         this.genero = genero;
     }
+
+    public Artista getArtista() {
+        return artista;
+    }
+
+    
     
            
 }
