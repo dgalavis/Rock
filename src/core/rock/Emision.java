@@ -4,10 +4,16 @@
  */
 package core.rock;
 
+import core.persona.Invitado;
+import java.util.ArrayList;
+
 /**
  *
  * @author galav
  */
 public class Emision {
-    
+    private int serial;
+    private ArrayList <Cancion> canciones;
+    private ArrayList <Invitado> invitados;
+    Programa programa;
 }

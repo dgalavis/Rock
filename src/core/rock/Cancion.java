@@ -4,10 +4,15 @@
  */
 package core.rock;
 
+import core.persona.Artista;
+
 /**
  *
  * @author galav
  */
 public class Cancion {
-    
+    private String nombre;
+    Artista artista;
+    Genero genero;
+           
 }

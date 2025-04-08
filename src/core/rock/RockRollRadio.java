@@ -4,10 +4,20 @@
  */
 package core.rock;
 
+import core.persona.Artista;
+import core.persona.Invitado;
+import core.persona.Locutor;
+import java.util.ArrayList;
+
 /**
  *
  * @author galav
  */
 public class RockRollRadio {
+    private ArrayList <Artista> artistas;
+    private ArrayList <Cancion> canciones;
+    private ArrayList <Invitado> invitados;
+    private ArrayList <Locutor> locutores;
+    private ArrayList <Programa> programas;
     
 }
